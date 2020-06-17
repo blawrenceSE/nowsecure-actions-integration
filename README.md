@@ -4,9 +4,9 @@ Action to upload a mobile app binary (.apk, .ipa) to the NowSecure Platform.
 
 Takes three inputs:
 
-`app-path`: The path to the binary artifact being uploaded
-`api-key`: The API bearer token generated in NowSecure Platform
-`group-id`: the group ID of the binary being uploaded. This can be founf in the UI under the name of the app in the app summary page. 
+`app-path`: The path to the binary artifact being uploaded  
+`api-key`: The API bearer token generated in NowSecure Platform  
+`group-id`: the group ID of the binary being uploaded. This can be found in the UI under the name of the app in the app summary page. 
 
 
 Sample configuration:
