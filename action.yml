@@ -1,0 +1,24 @@
+name: 'NowSecure Platform Integration'
+description: 'This actions uploads your app to NowSecure Platform'
+inputs:
+  app-path:  # path of app
+    description: 'Please provide the path for the app to be uploaded'
+    required: true
+    default: 'Undefined'
+  api-key:  # Platform API Key
+    description: 'Please provide the API Key for NowSecure Platform'
+    required: true
+    default: 'Undefined' 
+  group-id:  # path of app
+    description: 'Please provide the Group Id of the application being integrated'
+    required: true
+    default: 'Undefined'    
+outputs:
+  platform-task-id: 
+    description: 'Task ID of the triggered assessment'
+runs:
+  using: 'node12'
+  main: 'index.js'
+branding:
+  color: 'blue'
+  icon: 'arrow-up-circle'
