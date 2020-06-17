@@ -9,7 +9,7 @@ Takes three inputs:
 `group-id`: the group ID of the binary being uploaded. This can be found in the UI under the name of the app in the app summary page. 
 
 
-Sample configuration:
+## Sample configuration:
 
 ```yaml
 name: CI
@@ -28,9 +28,13 @@ jobs:
       uses: blawrencens/nowsecure-actions-integration@0.4.4
       with:
         # Please provide the path for the app to be uploaded
-        app-path: "/home/runner/work/CircleCIIntegration/CircleCIIntegration/anydo39.apk"
+        app-path: "/home/runner/work/myProject/myProject/my-app.apk"
         # Please provide the API Key for NowSecure Platform
         api-key: ${{ secrets.PLATFORM_API_KEY }}
         # Please provide the Group Id of the application being integrated
         group-id: "a43a22b7-d9a0-4b1e-81b8-0f047029e0f5"
 ```
+
+## About NowSecure
+
+NowSecure Platform is a best-in-class automated static, dynamic, and interactive analysis engine for mobile app security. Learn more at www.nowsecure.com
