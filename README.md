@@ -4,8 +4,7 @@ Action to upload a mobile app binary (.apk, .ipa) to the NowSecure Platform.
 
 Takes three inputs:
 
-`app-path`: The path to the binary artifact being uploaded  
-- NB: be careful using `$GITHUB_WORKSPACE` here, I couldn't get that to work. Doesn't mean it isnt possible.
+`app-path`: The path to the binary artifact being uploaded. NB: be careful using `$GITHUB_WORKSPACE` here, I couldn't get that to work. Doesn't mean it isnt possible.  
 `api-key`: The API bearer token generated in NowSecure Platform  
 `group-id`: the group ID of the binary being uploaded. This can be found in the UI under the name of the app in the app summary page. 
 
