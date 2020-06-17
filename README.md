@@ -25,7 +25,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: NowSecure Platform Integration
-      uses: blawrencens/nowsecure-actions-integration@0.4.4
+      uses: blawrencens/nowsecure-actions-integration@1.0.2
       with:
         # Please provide the path for the app to be uploaded
         app-path: "/home/runner/work/myProject/myProject/my-app.apk"
