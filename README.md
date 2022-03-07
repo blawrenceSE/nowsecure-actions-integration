@@ -1,4 +1,4 @@
-# NowSecure Github Actions Integration
+# Upload Only Integration to NowSecure Platform
 
 Action to upload a mobile app binary (.apk, .ipa) to the NowSecure Platform.
 
