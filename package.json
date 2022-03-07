@@ -26,7 +26,6 @@
   "devDependencies": {
     "@actions/core": "^1.2.6",
     "@actions/github": "^3.0.0",
-    "request": "^2.88.2",
-    "json-schema": ">=0.4.0"
+    "request": "^2.88.2"
   }
 }
