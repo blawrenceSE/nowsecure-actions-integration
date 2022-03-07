@@ -1,4 +1,4 @@
-name: 'NowSecure Platform Integration'
+name: 'Unofficial Upload Only NowSecure Platform Integration'
 description: 'This actions uploads your app to NowSecure Platform'
 inputs:
   app-path:  # path of app
