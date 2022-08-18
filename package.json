@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/blawrencens/nowsecure-actions-integration#readme",
   "devDependencies": {
-    "@actions/core": "^1.2.6",
+    "@actions/core": "^1.9.1",
     "@actions/github": "^3.0.0",
     "request": "^2.88.2"
   }
